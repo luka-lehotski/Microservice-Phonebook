@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "K9VNnZss17lL5LO6ZAnkmAa/u3z6f6I2ZHwhs/bPgrc=",
+  "Source": "IdentityProviderMicroservice",
+  "BasePath": "_content/IdentityProviderMicroservice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
