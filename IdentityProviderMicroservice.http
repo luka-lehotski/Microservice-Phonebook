@@ -1,0 +1,6 @@
+@IdentityProviderMicroservice_HostAddress = http://localhost:8082
+
+GET {{IdentityProviderMicroservice_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
