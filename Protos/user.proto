@@ -1,0 +1,19 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "IdentityProviderMicroservice.User";
+
+package user_grpc;
+
+service UserGrpc {
+    rpc GetUser(GetUserRequest) returns (GetUserResponse);
+}
+
+message GetUserRequest {
+    string email = 1;
+}
+
+message GetUserResponse {
+    bool exists = 1;
+    int32 id = 2;
+    string password = 3;
+}
